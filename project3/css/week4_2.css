@@ -1,0 +1,71 @@
+
+body{
+background-color:#E86F91;
+}
+
+#wrap{
+	max-width: 70em; /*/Margins, this adjusts size inside div*/
+    margin:auto;
+    
+
+}
+
+img{
+	width:100%;
+	height:auto;
+}
+
+#dumbledoor{
+	background-image:repeat-y;
+}
+
+p{
+	font-family: Helvetica;
+	font-size: 2em;
+	text-align: center;
+
+}
+a{
+	color:white;
+	text-decoration: none;
+	font-family:Arial;
+	font-size: 1.5em;
+	margin-right:auto;
+	width:30%;
+}
+a:hover{
+	color:black;
+}
+
+#button{
+	color:pink;
+	font-size:.8em;
+	background-color:purple;
+	}
+
+#button :hover{
+	background-color:yellow;
+	color:black;
+
+}
+
+textarea{
+	background-color:#FFE2BC;
+	margin-left:20em;
+	border:none;
+	width:457px;
+	height:auto;
+
+
+}
+
+.input{
+	background: black;
+	color: white;
+	position: fixed;
+	width: 40%;
+	height:auto;
+	padding:.5em;
+	top: 34%;
+	left: 26%;
+}

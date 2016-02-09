@@ -1,0 +1,48 @@
+
+body{
+background-color:#E86F91;
+opacity:.4;
+}
+
+#wrap{
+	max-width: 70em; /*/Margins, this adjusts size inside div*/
+    margin:auto;
+    
+
+}
+
+img{
+	width:100%;
+	height:auto;
+}
+
+p{
+	font-family: Helvetica;
+	font-size: 3em;
+	text-align: center;
+
+}
+a{
+	color:white;
+	text-decoration: none;
+	font-family:Arial;
+	font-size: 1.5em;
+	margin-right:auto;
+	width:30%;
+}
+
+a:hover{
+	color:black;
+}
+
+#button{
+	color:pink;
+	font-size:.5em;
+	background-color:purple;
+	}
+
+#button :hover{
+	background-color:yellow;
+	color:black;
+
+}

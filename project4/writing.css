@@ -1,0 +1,61 @@
+body{
+	background-color:whitesmoke;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
+    word-spacing:.0135em;
+}
+#wrap {
+    max-width: 900px; /*/Margins, this adjusts size inside div*/
+    margin: auto;
+    margin-top: 130px;
+}
+
+nav{
+	    margin-top: -.8em;
+	    background-color:white;
+	    height:2em;
+	    width: 55.5em;
+	    padding: .4em;
+	    padding-top:.6em ;
+	    border-bottom: solid;
+    	border-bottom-color: gray;
+    	position:fixed;
+    	top: 4em;
+    }
+
+
+h2{
+	font-family:'Roboto Mono', 'helveticaNeue';
+	font-size: 2em;
+	color:white;
+	
+	margin-top: 0;
+
+}
+
+
+a{
+	font-family: 'Roboto Mono', 'helveticaNeue';
+	text-decoration: none;
+	font-size:1.4em;
+	color:gray;	
+}
+
+a:hover{
+	color:#FFB88F;
+}
+
+.writing{
+	background-color: #969391;
+	height:auto;
+    padding: 5em;
+    box-sizing: border-box;
+    margin-bottom: 3em;
+
+}
+.writing p{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-right:4em;
+	line-height:130% ;
+
+}
+

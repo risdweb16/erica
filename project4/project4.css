@@ -1,0 +1,145 @@
+body{
+	background-color:whitesmoke;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
+    word-spacing:.0135em;
+}
+
+
+
+#wrap {
+    max-width: 900px; /*/Margins, this adjusts size inside div*/
+    margin: auto;
+    margin-top: 130px;
+}
+/* it worked but needs to be tweeked to make it stay as one whole element uptop
+
+nav{
+	position:fixed;
+	background-color:white ;
+
+}*/
+
+/*#topheader h1{
+	font-family:'HelveticaNeue-light';
+
+}*/
+
+nav{
+	    margin-top: -.8em;
+	    background-color:white;
+	    height:2em;
+	    width: 55.5em;
+	    padding: .4em;
+	    padding-top:.6em ;
+	    border-bottom: solid;
+    	border-bottom-color: gray;
+    	position:fixed;
+    	top: 4em;
+	
+}
+
+h2{
+	font-family:'Roboto Mono', 'helveticaNeue';
+	font-size: 2em;
+	color:white;
+	padding-left: .3em;
+	margin-top: 0;
+
+}
+
+p{
+	margin-right: 10em;	
+	margin-bottom: 4em;
+    margin-top: 2em;
+	line-height:130% ;
+}
+
+a{
+	font-family: 'Roboto Mono', 'helveticaNeue';
+	text-decoration: none;
+	font-size:1.4em;
+	color:gray;	
+}
+
+a:hover{
+	color:#FFB88F;
+}
+
+#section{
+	background-color: #969391;
+	min-height: 300vh;
+    padding: 5em;
+    box-sizing: border-box;
+    margin-bottom: 3em;
+
+}
+
+.planA a{
+	display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: .5em;
+    float: left;
+    color:white;
+    /*background: url(http://cdn.phys.org/newman/gfx/news/hires/2012/aharpsealpup.jpg), 30px; <-- this does not make image fit to size-->*/ 
+    
+    padding: .5em;
+}
+.planA :hover{
+	opacity:.4;
+	color:#FFB88F;
+} 
+
+.planB a{
+	display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: .5em;
+    float: left;
+    color:white;
+    /*background: url(http://cdn.phys.org/newman/gfx/news/hires/2012/aharpsealpup.jpg), 30px;*/
+    
+    padding: .5em;
+}
+/*to get it to hide and show a name underneather will have to be delt with in java*/
+
+.planB :hover{
+	opacity:.4;
+	color:#FFB88F;
+} 
+
+.planC a{
+	display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: .5em;
+    float: left;
+    color:white;
+    /*background: url(http://cdn.phys.org/newman/gfx/news/hires/2012/aharpsealpup.jpg), 30px;*/
+    
+    padding: .5em;
+}
+/*to get it to hide and show a name underneather will have to be delt with in java or may have to work wit hz-indes order of boxes*/
+
+.planC :hover{
+	opacity:.4;
+	color:#FFB88F;
+} 
+
+#footer{
+	height:5em;
+	width:auto;
+	background-color:#FFB88F;
+
+
+}
+
+
+/*.innerbox img{
+	display: block;
+    width: 120px;
+    height: 160px;
+    margin: .5em;
+    float: left;
+    padding: .5em;
+}*/
