@@ -1,0 +1,193 @@
+body{
+	height:100em;
+	width:auto;
+	animation-name:changeback;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+
+}
+
+/*.layer1 {
+	position: fixed;
+
+
+}*/
+.layer1{
+	width:80%;
+	height:auto;
+	float:left;
+	position:fixed;
+
+
+}
+
+
+
+.layer2{
+	width:80%;
+	height:auto;
+	float:left;
+	margin:0;
+
+} 
+
+.layer3{
+	width:80%;
+	height:auto;
+	float:left;
+	margin:0;
+
+} 
+/*i cancelled these out, right now they are following Html style. However when uncancelled htey do not style to the mdeia query.!*/
+.layer4{
+	width:80%;
+	height:auto;
+	float:left;
+	margin:0;
+
+} 
+
+.layer5{
+	width:80%;
+	height:auto;
+	float:left;
+	margin:0;
+
+} 
+
+.layer6{
+	width:80%;
+	height:auto;
+	float:left;
+	margin:0;
+
+} 
+
+
+
+/* adding id to svg in layer 1, lets see if it can adress problem below*/
+/*it didn't, need to get identitys right... NOPE just had the id ant tag wrong*/
+
+/*.svgwrap{
+	float:left;
+	width:50%;
+	height:50%;
+
+}*/
+
+ /*#what{
+	width:40%;
+	height:40%;
+	float:left;
+
+}*/
+
+svg {
+	/*just added width, hight this in to see. call id may be wrong, why is it not interactive?*/
+	/*width:50%;
+	height:40%;*/
+	fill:#FD7EFF;
+	opacity:.5;
+	
+}
+
+/*.layer1, .layer2, .layer3, .layer4, .layer5, .layer6 :hover{
+	fill:#4B00FF;
+	opacity:.3;
+	animation-name:change;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}*/
+
+.layer2 :hover{
+	fill:#FF9DDC;
+	animation-name:change;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+
+}
+
+.layer3 :hover{
+	fill:#FF9DDC;
+	animation-name:change;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+
+}
+.layer4 :hover{
+	fill:#FF9DDC;
+	animation-name:change;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+
+}
+
+.layer5 :hover{
+	fill:#FF9DDC;
+	animation-name:change;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+
+}
+.layer6 :hover{
+	fill:#FF9DDC;
+	animation-name:change;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+
+}
+
+
+/*.layer3 :hover{
+	fill:#FF9DDC;
+	animation-name:change;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+
+}*/
+@keyframes change{
+	10%{fill:red;
+		opacity:.4;}
+	20%{fill:#FF34EF;}
+	30%{fill:orange;}
+	40%{fill:#FF34EF;}
+	50%{fill:#86FF7E;}
+	60%{fill:#FF34EF;}
+	70%{fill:orange;}
+	80%{fill:#FF34EF;}
+	90%{fill:#86FF7E;}
+	100%{fill:red;}
+
+}
+
+@keyframes changeback{
+	10%{background-color:#F7ABCF;}
+	20%{background-color:#FABDFF;}
+	30%{background-color:#BDFFFE;}
+	40%{background-color:#BDFFCA;}
+	50%{background-color:#BDFFCA;}
+	60%{background-color:#FF34EF;}
+	70%{background-color:#FFFCBD;}
+	80%{background-color:#FFD5BD;}
+	90%{background-color:#FFBDBD;}
+	100%{background-color:#F7ABCF;}
+
+}
+
+
+@media screen and (max-width: 400px) {
+  .layer1, .layer2, .layer3, .layer4, .layer5, .layer6{
+    width: 100%;
+    margin: 0;
+  }
+
+}
+
+
+
+/*img{
+	margin-top:20em;
+	width:100%;
+	height:auto;
+
+}*/

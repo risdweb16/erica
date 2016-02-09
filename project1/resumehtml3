@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://use.typekit.net/thp1vvh.js"></script>
+			<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<link type="text/css" rel="stylesheet" href="css/resume3.css"/>
+		
+		<title></title>
+	</head>
+	<body>
+	<div id="wrap">
+		<div class="toplink">
+			<a href='http://ecceecce.com/'><h1>ecce</h1><h1>ecce<h1></a>
+		</div>
+
+		<div class="block">
+			<!--<p>Erica Carras</p>-->
+		</div>
+
+		<div class="inblock">
+			<h5 Id="header"> Erica Carras </h5>
+			<h5 Id="header"> Illustration + Graphic Design </h5>		
+			<h5 Id="header"> ecceecce.com </h5>
+			<h5 Id="header"> 516-547-7505 </h5>
+		
+
+
+			<h5 Id="header3"> Objective </h5>
+			<p>To be part of your summer internship program, and involved with the development of concept, typography, 
+			and identity. 
+			</p>
+
+
+		<h5 Id="section"> Experience </h5>
+			<h5 Id="header3"> <h5 Id="header3">Rhode Island School of Design, Providence RI</h5> <h5 Id="header32">Teaching Assistant, Fall 2014 - Present </h5>
+			<p>As teaching assistant I set up still lives and arrange compositions for class,
+			for the students to paint from. This job requires physical labor, lifting, and caring items to upper floors for storage. During class I provide feedback
+			to students, while teaching color matching, color theory, mixing, and painting technique for oil paints.</p>
+
+			<h5 Id="header3"> Mt. Hood Summer Ski Camps, Government Camp OR </5>
+			<h5 Id="header32">Head Counselor summers 2010-2014 </h5>
+			<p>As head counselor I had the job of organizing events, activities, and scheduling staff tasks, along with transportation departures and vehicle assignments week by week. While training new staff and ensuring that counselors were doing their job to promote a happy and safe environment for 60-120 campers.</p>
+
+			<h5 Id="header3"> Rhode Island School of Design, Providence RI</h5><h5 Id="header32">
+			President of RISD Rock Climbing Club 2012-16 </h5>
+			<p>As president of the club it is my job to keep track of budget. While creating events, contacting the local climbing gym, and scheduling outdoor climbing trips for the club. Along with notifying club members about upcoming activities, and driving the van for transportation. </p>
+
+		<h5 Id="section"> Acheivments</h5>
+			<h5 Id="header3"> <h5 Id="header3">Renoun Ski Company, Burlington VT. </h5> <h5 Id="header32">Ski Design Contest Winner 2014</h5>
+
+			<p>Creating ski designs for both the company and consumer; designs should be both eye-catching and entertaining. Catering to the company’s ski dimensions and working with logo placement along the ski. Design won by popular vote, and will be placed on this years model. </p>
+
+		<h5 Id="section"> Skills</h5>
+			<p> Computer: Photoshop, Illustrator, InDesign, Corel Painter, Microsoft word, Microsoft power point, Microsoft Excel.<p>
+
+			<p>Media: Digital, color pencil, Ink, charcoal, pastel, acrylics, water colors, Oil paints, Silkscreen printing.</p>
+
+			<p>Design: knowledge of typography, Calligraphy, Sign painting, book binding, letter press and photography.</p>
+
+			<p>Coding: web-design (HTML,CSS & Javascript), and processing</p>
+
+		<h5 Id="section"> Gallery Shows</h5>
+		<p> 
+		RISD Illustration Triennial, 2015
+		Providence RI</p>
+		<p>Ilustration Senior Show, 2015</p>
+		<p>Graphic Design Senior Show, 2015</p>
+		<p>Ski Design Showcase at Arts Riot,
+		Burlington VT, 2014</p>
+		<p>Graphic Design Senior Show, 2016</p>
+
+
+		<!--<div class="image">
+			<img src='http://payload199.cargocollective.com/1/12/415297/6287838/Birds%20Final%20resize.jpg'> -->
+
+		</div>
+	</div>
+	
+	
+	
+	</body>
+</html>

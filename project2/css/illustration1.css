@@ -1,0 +1,25 @@
+body{
+	background-color:#0F1D26;
+
+}
+
+svg{
+	fill:red;
+	opacity:.4;
+	position:fixed;
+	width:100%;
+	height:auto;
+	margin-left:2.4em;
+	margin-top:-3em;
+}
+.layer_2{
+	margin-top:50em;
+
+}
+
+img{
+	max-width:90%;
+	height:auto;
+	margin-left: 3.75em;
+	margin-top:80em;
+}
