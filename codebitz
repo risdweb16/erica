@@ -1,0 +1,103 @@
+//this will get things to change color as you scroll over them// 
+
+$(document).ready(function() {
+    $('elem').event(function() {
+        $(this).func('css','color');
+    });
+});
+
+
+
+//use this to change the imput color//
+
+$(document).ready(function(){
+    $('input').focus(function(){
+        $('input').css('outline-color', '#FF0000');   
+    }); 
+});
+
+// to animate//
+
+$(document).ready(function() {
+   $('div').animate({left:'+=10px'},500);
+});\\\\
+
+
+//why this wasn't workiing//
+
+$(document).ready(function(){
+    $(document).keydown(function(key){
+    });
+    
+});
+
+
+dont put '' with 'document'
+
+//animating things to move down//
+
+$(document).ready(function(){
+
+    // Fill in the blanks!
+    $('img').animate({ top: '+=100px'}, 1000 );
+});
+
+
+
+/weird effect with Ui//
+
+
+$(document).ready(function(){
+    $('div').click(function(){
+        $('div').effect('explode');
+    });
+    
+});
+
+
+//the acordian affect!!//
+
+$(document).ready(function() {
+    $("#menu").accordion({collapsible: true, active: false});
+});
+
+
+
+$.draggable()
+
+
+$(document).ready(function(){
+    $('#car').draggable()
+});
+
+
+
+
+////for loops in JS
+
+
+
+for (var i = 5; i < 11; i = i + 1){
+	console.log(i);
+}
+
+
+
+//for loops with arays//
+
+var cities = ["pizza", "Aasdf", "fdsasdf", "fasdfasdfasdc"];
+
+for (var i = 0; i < cities.length; i++) {
+    console.log("I would like to visit " + cities[i]);
+}
+
+
+/*part of parallax scrolling */
+function update(){ 
+    var pos = $(window).scrollTop(); 
+    $('.bg-container').each(function() { 
+        var $element = $(this);
+        // subtract some from the height b/c of the padding
+        var height = $element.height()-18;
+        $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
+    }); 

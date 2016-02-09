@@ -1,0 +1,60 @@
+body{
+	background-color:#00BCD4;	
+	animation-name:changeback;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+}
+header h2{
+	font-family: 'helveticaNeue-light', helvetica, sans-serif;
+	margin-left: 4em;
+	color:#FF6A00;
+
+}
+
+header p{
+	margin-left: 6em;
+	font-family:"helveticaNeue-light", helvetica, sans-serif ;
+	margin-top: -1em;
+
+}
+
+@keyframes changeback{
+	10%{background-color:#F7ABCF;}
+	20%{background-color:#FABDFF;}
+	30%{background-color:#BDFFFE;}
+	40%{background-color:#BDFFCA;}
+	50%{background-color:#BDFFCA;}
+	60%{background-color:#FF34EF;}
+	70%{background-color:#FFFCBD;}
+	80%{background-color:#FFD5BD;}
+	90%{background-color:#FFBDBD;}
+	
+
+}
+
+
+a{	
+	
+	margin-left:4em;
+	font-family:helvetica;
+	font-size:2em;
+	text-decoration:none;
+	color:#8C0067;
+}
+
+#link{
+	margin-top:.4em ;
+
+}
+#link2{
+	margin-top:.4em ;
+	font-size:.5em ;
+	margin-left: 11em;
+
+}
+
+#link :hover{
+	margin-top:.4em ;
+	background-color:pink ;
+}
+

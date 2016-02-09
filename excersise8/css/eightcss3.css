@@ -1,0 +1,113 @@
+body{background-color:#ECECEC;}
+
+
+.wrap{
+	margin-left: 2em;
+	margin-right:30em;
+	margin-top:3em;
+	}
+	/*max-width:70%;
+	height:auto;
+	/*position:block;
+}*/
+
+/* when I add a width to the shape id. the rect dissapear. is this because rect do not go by points*/
+svg{
+	width:3.5em;
+	/*height:auto;
+	position:inline-block;
+	margin:.1em;*/
+ 	}
+
+
+
+
+ #shape{
+ 	fill:white;
+ 	animation-name:color;
+ 	animation-duration:4s;
+ 	animation-iteration-count: infinite;
+ }
+
+/*for some reason the hover comand wasn't working with this originally, but now it does :)*/
+#shape:hover{
+	animation-name:curse;
+ 	animation-duration:4s;
+ 	animation-iteration-count: infinite;
+}
+
+.words{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   margin-top:3em;
+   margin-right: 30em;
+   margin-left:2em;
+}
+
+
+	/*
+	width:4em;
+ 	height:auto;
+	height:auto;
+	position: inline-block;
+	margin:.1em;*/
+
+	/*position:inline-block;
+	width:70%;
+	height:auto;
+
+}
+
+
+#rect{ 
+
+ width:30%;
+	height:auto;
+	position:inline-block;
+	margin:.1em;
+ animation-name:color;
+ animation-duration:4s;
+ animation-iteration-count: infinite;
+
+}
+
+
+polygon{
+ fill:white;
+ stroke:none;
+ width:30%;
+	height:auto;
+	position:inline-block;
+	margin:.1em;
+ animation-name:color;
+ animation-duration:4s;
+ animation-iteration-count: infinite;
+}
+
+/*rect:hover{
+	animation-name:curse;
+ 	animation-duration:4s;
+ 	animation-iteration-count: infinite;
+}
+
+polygon:hover{
+	animation-name:curse;
+ 	animation-duration:4s;
+ 	animation-iteration-count: infinite;
+} */
+
+@keyframes color{
+	25%{fill:gray;}
+	50%{fill:black;}
+	75%{fill:gray;}
+	100%{fill:white;}
+}
+
+@keyframes curse{
+	0{fill:black;}
+}
+
+/*a 0 dding this created the cool affect of changing patterm*/
+/*@keyframes curse{
+	0{fill:white;}*/
+

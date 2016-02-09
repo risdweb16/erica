@@ -1,0 +1,26 @@
+body{
+	outline-style:solid;
+	outline-color:black;
+	padding-left:2em;
+	padding-left:3em;
+	background-color: rgba(249, 249, 249, 0.51);
+	font-family:'helvetica neue';
+	margin-left: 3em;
+	margin-right: 35.2em;
+	/*spacing: ;>*/
+}
+p{
+	color:gray;
+}
+.author{margin-bottom:5em;
+
+}
+.frstp{
+	padding-bottom:2em;
+
+}
+.contrast{
+	margin-top:4em;
+	margin-bottom:1em;
+
+}

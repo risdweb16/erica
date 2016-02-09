@@ -1,0 +1,39 @@
+body{background-color:gray;}
+
+
+
+
+.wrap{
+	margin: 2em 30em 30em 5em;
+}
+
+svg{
+ fill:white;
+ stroke:none;
+ width:4em;
+ height:auto;
+	height:auto;
+	position: inline-block;
+	margin:.1em;
+ animation-name:color;
+ animation-duration:4s;
+ animation-iteration-count: infinite;
+}
+
+svg:hover{
+	animation-name:curse;
+ 	animation-duration:4s;
+ 	animation-iteration-count: infinite;
+}
+
+@keyframes color{
+	25%{fill:gray;}
+	50%{fill:black;}
+	75%{fill:gray;}
+	100%{fill:white;}
+}
+
+/*a 0 dding this created the cool affect of changing patterm*/
+@keyframes curse{
+	0{fill:white;}
+}

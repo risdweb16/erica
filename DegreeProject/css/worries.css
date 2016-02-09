@@ -1,0 +1,19 @@
+body{
+	background-color:#505050;
+
+}
+
+.txtwrap{
+	font-size:.8em;
+	font-family:helvetica;
+	height:30%;
+	width:auto;
+	text-align: justify;
+
+}
+
+#white{
+	background-color: white;
+
+
+}
